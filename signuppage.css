@@ -1,0 +1,132 @@
+body{
+    font-family: Mulish;
+    background-color: rgb(193, 190, 190);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.block-1{
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 450px;
+    background-color: white;
+    
+}
+
+
+.heading h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight:bolder;
+    line-height: 2.4rem;
+    letter-spacing: .07rem;
+    background-color: white;
+}
+.heading h4{
+    line-height: .001rem;
+    font-size: 0.9em;
+    text-align: center;
+    color:rgb(101, 99, 99) ;
+    font-weight: 300;
+}
+.signup-1 ,.signup-2,.signup-3{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-1 button,.signup-2 button,.signup-3 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    line-height: 2em;
+    border-radius: 12px;
+    
+}
+.signup-1 button:hover,.signup-2 button:hover,.signup-3 button:hover{
+    cursor: pointer;
+    box-shadow:  0px -2px #766329;
+}
+.signup-1 button img,.signup-2 button img,.signup-3 button img{
+    width: 20px;
+    height: 20px;
+}
+
+.email h3{
+    font-size: 1.3em;
+    line-height:.1em ;
+    
+}
+.email,.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    border-radius: 13px;
+    
+    text-align: start;
+    width: 400px;
+    padding: 8px;
+
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox p{
+    font-weight: 500;
+}
+
+.signup-4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.signup-4 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    line-height: 2em;
+    border-radius: 14px;padding: 2px;
+}
+.signup-4 button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.para-2{
+    font-weight: 900;
+}
+.para-2:hover{
+    cursor: pointer;
+}
+
+.block-2{
+   
+ 
+margin-top: 34px;
+}
+.picture{
+    width: 530px;
+    height: 645px;
+    border-radius: 10px;
+}
